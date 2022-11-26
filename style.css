@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(27, 27, 27);
+}
+html{
+    overflow-x: hidden;
+}
+
+.cap{
+    height: 70px;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.h2-1{
+    color: rgb(85, 119, 203);
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.h2-2{
+    color: rgb(85, 119, 203);
+    margin: 80px;
+    text-align: center;
+    font-size: 15px;
+}
+.block1{
+    border-radius: 10px;
+    background-color: rgb(15, 15, 15);
+    border: 1px solid rgb(85, 119, 203);
+}
+.block-text1{
+    text-align: center;
+    font-size: 20px;
+    padding: 6px;
+    color: rgb(85, 119, 203);
+}
+.block2{
+    border-radius: 10px;
+    background-color: rgb(0, 81, 255);
+    margin: 20px;
+}
+.block-text2{
+    text-align: center;
+    font-size: 20px;
+    padding: 6px;
+    color: white;
+}
+.text3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+.mrgn{
+    margin: 6px;
+    font-size: 15px;
+    color: rgb(85, 119, 203);
+}
+
+
+nav{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.hint{
+    color: rgb(85, 119, 203);
+    font-size: 15px;
+}
+
+
+
+.big-container{
+    display: flex;
+    justify-content: center;
+}
+.element-1{
+    height: 3250px;
+    width: 700px;
+    border-radius: 10px;
+    background-color: rgb(15, 15, 15);
+}
+.element-2{
+    height: 870px;
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: rgb(15, 15, 15);
+}
+.title{
+    color: white;
+    padding: 15px;
+    background-color: rgb(200, 200, 200);
+    border-radius: 10px 10px 0 0;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.box1-img{
+    max-width: 130px;
+    border-radius: 10px;
+}
+.box1-text{
+    color: rgb(200, 200, 200);
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 3px;
+}
+
+
+.element1-img{
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.king{
+    color: rgb(166, 166, 166);
+    font-size: 50px;
+    padding: 10px;
+    margin-top: 50px;
+}
+.mimi{
+    color: rgb(166, 166, 166);
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.content{
+    width: 650px;
+    background-color: rgb(27, 27, 27);
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.content-text{
+    color: rgb(166, 166, 166);
+    font-size: 32px;
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+li{
+    color: rgb(166, 166, 166);
+    margin: 0 0 0 30px;
+}
+ol{
+    margin-top: 40px;
+}
+.first-h2{
+    color: rgb(166, 166, 166);
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.first-p{
+    color: rgb(166, 166, 166);
+    font-size: 15px;
+    margin: 18px 0 0 13px;
+    
+}
+.second-h2{
+    color: rgb(166, 166, 166);
+    font-size: 25px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.second-p{
+    font-size: 15px;
+    color: rgb(166, 166, 166);
+    margin: 20px;
+}
+.third-h2{
+    color: rgb(166, 166, 166);
+    font-size: 25px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.third-p{
+    font-size: 15px;
+    color: rgb(166, 166, 166);
+    margin: 20px;
+}
+
+
+
+.list{
+    padding: 20px;
+}
+.list-h1{
+    color: rgb(166, 166, 166);
+    margin: 10px;
+}
+.list-p{
+    color: rgb(166, 166, 166);
+    font-size: 15px;
+    margin: 0 0 40px 0;
+}
+
+.survey{
+    font-size: 50px;
+    color: rgb(166, 166, 166);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cp{
+    color: rgb(166, 166, 166);
+    font-size: 20px;
+}
+.tutu-p{
+    color: rgb(166, 166, 166);
+    font-size: 30px;
+    margin-bottom: 10px;   
+}
+.tutu{
+    margin: 10px;
+}
+.input{
+    width: 70px;
+    height: 50x;
+    margin-top: 20px;
+}
+
+
+.footer-king{
+    background-color: rgb(15, 15, 15);
+    height: 200px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+
+}
+.kigi{
+    margin-left: 150px;
+}
+.kigi-el-1{
+    color: rgb(166, 166, 166);
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.kigi-el-2{
+    color: rgb(85, 119, 203);
+    margin-bottom: 15px;
+}
+.original{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(85, 119, 203);
+    border-radius: 20px;
+    border: 0;
+    margin-top: 10px;
+    
+}
